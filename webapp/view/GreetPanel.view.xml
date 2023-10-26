@@ -1,0 +1,14 @@
+<mvc:View
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc"
+   controllerName="com.vaibhavmojidra.nestedviewsdemo.controller.GreetPanel">
+   <Panel
+      headerText="{i18n>panelTitle}"
+      class="sapUiResponsiveMargin"
+      width="auto">
+      <content>
+		<Input placeholder="Enter your name" id="name" width="60%"></Input>
+		<Button text="Greet" class="sapUiTinyMarginBegin" press=".onGreet"/>
+      </content>
+   </Panel>
+</mvc:View>
